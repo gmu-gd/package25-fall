@@ -7,7 +7,7 @@ This schedule maps out what we are covering in class each week and what work we 
 
 If you want to know what is due for next class, [check here]({{ site.baseurl }}/due).
 
-### August 29 &mdash; Week 1
+### Week 1
 #### Outline for the Day
 * Course Overview
 * Packaging Chat
@@ -20,7 +20,7 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 
 ---
 <!-- mix -->
-### September 5 &mdash; Week 2
+### Week 2
 #### Outline for the Day
 * The MIX orientation
 * Demo: Dielines
@@ -33,7 +33,7 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 ---
 
 <!-- mix -->
-### September 12 &mdash; Week 3
+### Week 3
 #### Outline for the Day
 * E3: MYOD
 * Demo: Tinkercad
@@ -46,7 +46,7 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 
 ---
 
-### September 19 &mdash; Week 4
+### Week 4
 #### Outline for the Day
 * E4: Pair of Plants (Part I)
 * P1.1: Individual check ins
@@ -57,7 +57,7 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 
 ---
 
-### September 26 &mdash; Week 5
+### Week 5
 #### Outline for the Day
 * E4: Pair of Plants (Part II)
 * P1.2: Small group check ins
@@ -68,7 +68,7 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 
 ---
 <!-- mix -->
-### October 3 &mdash; Week 6
+### Week 6
 #### Outline for the Day
 * P1.3: Small group critiques
 
@@ -77,24 +77,26 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 
 ---
 <!-- mix -->
-### October 10 &mdash; Week 7
-No Class
-
----
-
-### October 17 &mdash; Week 8
+### Week 7
 #### Outline for the Day
 * P1.4: Individual check ins
 * P2: Form + Function
 
 #### Due Next Class
 * P1 Final
+
+---
+
+### Week 8
+#### Outline for the Day
+* P1 Final: Final critiques
+
+#### Due Next Class
 * P2.1: Checkpoint 1
 
 ---
 
-### October 24 &mdash; Week 9
-* P1 Final: Final critiques
+### Week 9
 * P2.1: Quick individual check ins
 
 #### Due Next Class

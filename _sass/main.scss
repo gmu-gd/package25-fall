@@ -239,7 +239,7 @@ main, #head-contain {
   display: grid;
   overflow: hidden;
   grid-template-columns: 1fr;
-  grid-template-rows: max-content max-content 20vh;
+  grid-template-rows: 1fr 1fr;
   gap: 0;
   grid-template-areas:
     "pi"
@@ -933,7 +933,7 @@ p#warning {
     }
     #top-content {
       grid-template-columns: 29vw 29vw 1fr;
-      grid-template-rows: max-content max-content;
+      grid-template-rows: 1fr 1fr;
       gap: 0;
       grid-template-areas:
         "pi pi wd"
@@ -983,7 +983,7 @@ p#warning {
     }
     #top-content {
       grid-template-columns: 22vw 22vw 22vw 1fr;
-      grid-template-rows: max-content max-content;
+      grid-template-rows: 1fr 1fr;
       gap: 0;
       grid-template-areas:
         "pi pi pi wd"
