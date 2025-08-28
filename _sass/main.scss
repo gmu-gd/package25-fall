@@ -253,12 +253,12 @@ main, #head-contain {
 .arrows {
   grid-area: ar;
   min-height: 200px;
-  overflow: hidden;
-  background: url(../img/background.png) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  // overflow: hidden;
+  // background: url(../img/background.png) no-repeat center center; 
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
   background-color: $tertiary-color;
 }
 .due-box {
