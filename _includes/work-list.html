@@ -2,7 +2,7 @@
 {% assign curDate = site.time | date: '%s' %}
 {% if site.categories.projects == null %}
   <p>The first project will be posted soon.</p>
-  {% else %}
+{% else %}
   {% for post in site.categories.projects %}
     {% assign postStartDate = post.date | date: '%s' %}
     {% if postStartDate <= curDate %}

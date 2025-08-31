@@ -95,11 +95,11 @@ textarea {
 ========================================================================== */
 
 $font-stack-body: sofia-pro, sans-serif;
-$font-stack-bighead: rig-solid-bold-halftone, sans-serif;
-$font-stack-student: rig-solid-bold-fill, sans-serif;
+$font-stack-bighead: "sofia-pro-condensed", sans-serif;
+$font-stack-student: "sofia-pro-condensed", sans-serif;
 $font-stack-headings: sofia-pro-soft, sans-serif;
-$primary-color: #6ECDDC; //lightish
-$secondary-color: #A9FFCB;
+$primary-color: #A9FFCB; //lightish
+$secondary-color: #6ECDDC; 
 $tertiary-color: #8B80F9;
 $dark-color: #272727;
 $light-color: #FFFFFB;
@@ -121,7 +121,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  background-color: $light-color;
+  background-color: $dark-color;
   color: $dark-color;
   width: 100vw;
   overflow-x: hidden;
@@ -239,27 +239,18 @@ main, #head-contain {
   display: grid;
   overflow: hidden;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  // grid-template-rows: 1fr 1fr;
   gap: 0;
   grid-template-areas:
     "pi"
-    "wd"
-    "ar";
+    "wd";
+}
+#top-content small {
+  color: $light-color;
 }
 .page-info {
   grid-area: pi;
   padding: 5vw;
-}
-.arrows {
-  grid-area: ar;
-  min-height: 200px;
-  // overflow: hidden;
-  // background: url(../img/background.png) no-repeat center center; 
-  // -webkit-background-size: cover;
-  // -moz-background-size: cover;
-  // -o-background-size: cover;
-  // background-size: cover;
-  background-color: $tertiary-color;
 }
 .due-box {
   grid-area: wd;
@@ -354,7 +345,7 @@ a, a:hover, a:active, a:visited {
   text-decoration: none;
 }
 h1 a, h1 a:hover, h1 a:active, h1 a:visited {
-  color: $dark-color;
+  color: $tertiary-color;
   // -webkit-text-stroke: 0 $dark-color;
 }
 p {
@@ -417,7 +408,7 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-family: $font-stack-bighead;
   margin-top: 0;
-  font-size: 16vw;
+  font-size: 100px;
   line-height: .9em;
   padding: 10px 0 0 0;
   margin-left: -6px;
@@ -425,7 +416,7 @@ h1 {
   letter-spacing: .1rem;
   font-weight: 700;
   // -webkit-text-stroke: 0;
-  color: $primary-color;
+  color: $tertiary-color;
 }
 .interior h1 {
   color: $primary-color;
@@ -836,7 +827,7 @@ p#warning {
      font-size: 2.2rem;
    }
    h1 a, h1 a:hover, h1 a:active, h1 a:visited {
-     color: $dark-color;
+     color: $tertiary-color;
      // -webkit-text-stroke: 3px $dark-color;
    }
    .interior h1 a, .interior h1 a:hover {
@@ -848,7 +839,7 @@ p#warning {
      text-transform: uppercase;
      letter-spacing: .1rem;
      font-weight: 700;
-     color: $dark-color;
+     color: $primary-color;
      // -webkit-text-stroke: 3px $dark-color;
    }
    ul {
@@ -872,7 +863,7 @@ p#warning {
 }
 @media only screen and (min-width: 630px) {
   h1 {
-    font-size: 17vw;
+    font-size: 150px;
     line-height: .9em;
     padding: 20px 0 0 0;
     margin-left: -6px;
@@ -919,7 +910,7 @@ p#warning {
     width: 75%;
   }
   h1 {
-    font-size: 17vw;
+    font-size: 175px;
     line-height: .9em;
     padding: 20px 0 0 0;
     margin-left: -9px;
@@ -930,14 +921,6 @@ p#warning {
     main, .about, #head-contain {
       width: 95vw;
       display: flow-root;
-    }
-    #top-content {
-      grid-template-columns: 29vw 29vw 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 0;
-      grid-template-areas:
-        "pi pi wd"
-        "ar ar wd";
     }
     .tutorial-page {
       width: 600px;
@@ -969,7 +952,7 @@ p#warning {
       grid-column: span 4;
     }
     h1 {
-      font-size: 10vw;
+      font-size: 225px;
       line-height: .9em;
       padding: 20px 0 0 0;
       margin-left: -7px;
@@ -980,14 +963,6 @@ p#warning {
     main, #head-contain {
       position: relative;
       left: 0;
-    }
-    #top-content {
-      grid-template-columns: 22vw 22vw 22vw 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 0;
-      grid-template-areas:
-        "pi pi pi wd"
-        "ar ar ar wd";
     }
     section {
       display: grid;
@@ -1003,7 +978,7 @@ p#warning {
       grid-column: span 4;
     }
     h1 {
-      font-size: 11vw;
+      font-size: 250px;
       line-height: .9em;
       padding: 20px 0 0 0;
       margin-left: -10px;
@@ -1035,9 +1010,7 @@ p#warning {
 /* ============================================
    Temporary Styles
    ============================================ */
-body {
-  background-color: $light-color;
-}
+
 .temp-form {
   padding: 50px 12.5vw;
   color: $dark-color;
