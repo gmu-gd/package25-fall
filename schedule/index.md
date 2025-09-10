@@ -104,7 +104,7 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 
 ---
 <!-- mix -->
-### October 31 &mdash; Week 10
+### Week 10
 #### Outline for the Day
 * P2.2: Pitch meetings
 
@@ -113,7 +113,7 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 
 ---
 <!-- mix  -->
-### November 7 &mdash; Week 11
+### Week 11
 #### Outline for the Day
 * P2.3: Individual critiques
 
@@ -122,7 +122,7 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 
 ---
 <!-- mix -->
-### November 14 &mdash; Week 12
+### Week 12
 #### Outline for the Day
 * P2.4: Group check ins
 
@@ -131,7 +131,7 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 
 ---
 <!-- mix -->
-### November 21 &mdash; Week 13
+### Week 13
 #### Outline for the Day
 * P2.5: Individual check ins
 
@@ -141,7 +141,7 @@ If you want to know what is due for next class, [check here]({{ site.baseurl }}/
 
 ---
 
-### November 28 &mdash; Week 14
+### Week 14
 No class, Thanksgiving break.
 
 #### Due Next Class
@@ -149,7 +149,7 @@ No class, Thanksgiving break.
 
 ---
 
-### December 5 &mdash; Week 15
+### Week 15
 #### Outline for the Day
 * Course evaluations
 * P2: Final critiques
@@ -157,5 +157,5 @@ No class, Thanksgiving break.
 
 ---
 
-### December 12 &mdash; Week 16
+### Week 16
 Everything due.
